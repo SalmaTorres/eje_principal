@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+}
+.contenedor-flexible{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+.uno, .cinco{
+    background-color: red;
+    width: 150px;
+    height: 50px;
+    color: white;
+}
+.dos, .seis{
+    background-color: orange;
+    width: 150px;
+    height: 150px;
+    color: white;
+}
+.tres, .siete{
+    background-color: violet;
+    width: 150px;
+    height: 150px;
+    color: white;
+}
+.cuatro{
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    color: white;
+}
+/* 
+.contenedor-flexible-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.elem-flex-1{
+    background-color: red;
+    width: 150px;
+    height: 50px;
+    color: white;
+}
+.elem-flex-2{
+    background-color: orange;
+    width: 150px;
+    height: 150px;
+    color: white;
+}
+.elem-flex-3{
+    background-color: violet;
+    width: 150px;
+    height: 100px;
+    color: white;
+}
+.elem-flex-4{
+    background-color: blue;
+    width: 150px;
+    height: 200px;
+    color: white;
+}
+ */
